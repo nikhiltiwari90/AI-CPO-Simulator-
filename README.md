@@ -103,37 +103,6 @@ ai-cpo-simulator/
 > **For the complete project story** — every architectural decision, every tradeoff with its accepted cost, the full implementation log, honest limitations, and the v2/v3 roadmap — see [`docs/PROJECT_MASTER_DOCUMENT.md`](docs/PROJECT_MASTER_DOCUMENT.md). It's the single source of truth for this project's reasoning.
 
 ---
-
-## Quick Start
-
-```bash
-# 1. Clone
-git clone https://github.com/nikhiltiwari/ai-cpo-simulator
-cd ai-cpo-simulator
-
-# 2. Install
-npm install
-
-# 3. Add your Anthropic API key
-cp .env.example .env
-# Edit .env and add: VITE_ANTHROPIC_API_KEY=your_key_here
-
-# 4. Run
-npm run dev
-```
-
-Visit `http://localhost:5173`
-
----
-
-## Deploy to Vercel (2 minutes)
-
-```bash
-npm install -g vercel
-vercel --prod
-```
-Set environment variable `VITE_ANTHROPIC_API_KEY` in the Vercel dashboard under Project Settings → Environment Variables.
-
 **Note on CORS:** The Anthropic API does not allow direct browser calls in production due to CORS restrictions. For a production deploy, route requests through a lightweight serverless function (Vercel Edge Function / Netlify Function) that holds the API key server-side. A sample proxy function is included in `docs/AgentDesign.md`.
 
 ---
@@ -167,17 +136,5 @@ The agents are prompted to apply real PM frameworks, not just sound smart:
 
 ---
 
-## What Recruiters See
-
-When a recruiter or hiring manager opens this project:
-
-1. **Can build AI products** — not just describe them in a resume bullet
-2. **Understands agentic AI** — agent design, context passing, sequential orchestration
-3. **Knows PM frameworks** — used correctly inside prompts, not just name-dropped
-4. **Executive communication** — the memo output reads like something a real CPO would write
-5. **Systems thinker** — decomposed a vague, messy problem into 6 specialised agents with clean handoffs
-6. **Ships** — this is a working product with a live demo, not a slide deck
-
----
 
 *© 2026 Nikhil Tiwari. All rights reserved. See LICENSE.md.*
