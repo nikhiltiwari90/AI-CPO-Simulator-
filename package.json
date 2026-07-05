@@ -1,0 +1,29 @@
+{
+  "name": "ai-cpo-simulator",
+  "version": "1.0.0",
+  "description": "Autonomous Product Intelligence System — 6 AI agents diagnose product crises and produce VP-ready Executive Product Reviews.",
+  "author": "Nikhil Tiwari",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.1"
+  },
+  "keywords": [
+    "product-management",
+    "ai-product",
+    "agentic-ai",
+    "portfolio",
+    "claude-api"
+  ]
+}
