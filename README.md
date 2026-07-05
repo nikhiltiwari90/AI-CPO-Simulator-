@@ -96,8 +96,8 @@ ai-cpo-simulator/
     │                                 roadmap item. Start here for depth.
     ├── AgentDesign.md            ← Agent architecture decisions
     ├── PromptStrategy.md         ← Prompt engineering approach
-    ├── ProductThinking.md        ← Why this product matters + PRD framing
-    └── InterviewScript.md        ← How to demo + talk about this
+    └── ProductThinking.md        ← Why this product matters + PRD framing
+
 ```
 
 > **For the complete project story** — every architectural decision, every tradeoff with its accepted cost, the full implementation log, honest limitations, and the v2/v3 roadmap — see [`docs/PROJECT_MASTER_DOCUMENT.md`](docs/PROJECT_MASTER_DOCUMENT.md). It's the single source of truth for this project's reasoning.
